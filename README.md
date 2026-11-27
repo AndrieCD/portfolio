@@ -16,7 +16,8 @@ Open `index.html` in your browser, or open the folder in VS Code and use the Liv
 
 ## Personalize before sharing
 
-- **Project artwork:** Replace `assets/images/forest-guardians-placeholder.svg` with a real screenshot named `forest-guardians.jpg`, then edit the `<img src>` in `index.html`. Update the alt text too.
+- **Project artwork:** The Forest Guardians card currently uses `assets/images/ForestGuardians_MainMenu.png`. Replace it with another gameplay image in `index.html` when needed.
+- **Artwork gallery:** Add another `<figure class="art-card">` inside the `#art` section for each new illustration or concept piece.
 - **Project links:** Once available, add links to a gameplay video, download, or repository under Forest Guardians in `index.html`. Only link to public destinations.
 - **GitHub/LinkedIn:** Replace the HTML comment inside `.contact-links` with real anchor elements. Example: `<a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener noreferrer">GitHub ↗</a>`.
 - **Additional projects:** Duplicate the `<article class="feature-project">` block in `index.html` and replace the content/images. Adjust its project number.
