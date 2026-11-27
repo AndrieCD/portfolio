@@ -109,6 +109,9 @@ a{color:inherit;text-decoration:none}button{font:inherit}img{display:block;max-w
 .project-link{display:inline-flex;gap:8px;align-items:center;margin-top:12px;color:#3f5344;font-size:13px;font-weight:700;border-bottom:1px solid currentColor;padding-bottom:2px}
 .project-link:hover{color:var(--ink)}
 
+/* Keep shorter project cards from pushing their titles down to fill empty space. */
+.project-number{margin-bottom:0}
+
 /* Keep the full Forest Guardians thumbnail visible instead of cropping its edges. */
 .project-art{display:flex;align-items:center;justify-content:center;background:#eef0eb}
 .project-art img{width:100%;height:100%;object-fit:contain}
@@ -123,6 +126,7 @@ a{color:inherit;text-decoration:none}button{font:inherit}img{display:block;max-w
 .lightbox-close span{font-size:18px;line-height:0;vertical-align:-2px;margin-left:5px}
 .lightbox-panel p{margin:0;color:#d5dfd6;font-size:13px;text-align:center}
 .lightbox-open{overflow:hidden}
+
 
 @media(max-width:680px){
   .art-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:auto;gap:18px 12px}
